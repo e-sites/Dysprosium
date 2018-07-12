@@ -1,5 +1,9 @@
 ![Dysprosium](Assets/logo.png)
 
+Dysprosium is part of the **[E-sites iOS Suite](https://github.com/e-sites/iOS-Suite)**.
+
+---
+
 Deallocation helper for runtime objects.   
 This library is pure for debugging purposes.
 
