@@ -5,7 +5,7 @@ This library is pure for debugging purposes.
 
 [![forthebadge](http://forthebadge.com/images/badges/made-with-swift.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/built-with-swag.svg)](http://forthebadge.com)
 
-[![Platform](https://img.shields.io/cocoapods/p/Dysprosium svg?style=flat)](http://cocoadocs.org/docsets/Dysprosium)
+[![Platform](https://img.shields.io/cocoapods/p/Dysprosium.svg?style=flat)](http://cocoadocs.org/docsets/Dysprosium)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Dysprosium.svg)](http://cocoadocs.org/docsets/Dysprosium)
 [![Quality](https://apps.e-sites.nl/cocoapodsquality/Dysprosium/badge.svg?004)](https://cocoapods.org/pods/Dysprosium/quality)
 [![Travis-ci](https://travis-ci.org/e-sites/Dysprosium.svg?branch=master&001)](https://travis-ci.org/e-sites/Dysprosium)
