@@ -13,6 +13,7 @@ This library is pure for debugging purposes.
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Dysprosium.svg)](http://cocoadocs.org/docsets/Dysprosium)
 [![Quality](https://apps.e-sites.nl/cocoapodsquality/Dysprosium/badge.svg?004)](https://cocoapods.org/pods/Dysprosium/quality)
 [![Travis-ci](https://travis-ci.org/e-sites/Dysprosium.svg?branch=master&001)](https://travis-ci.org/e-sites/Dysprosium)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 
 # Installation
