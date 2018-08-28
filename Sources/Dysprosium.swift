@@ -162,12 +162,9 @@ public class Dysprosium {
     // MARK: - Private helper functions
     // _________________________________________________________________________________________________________________
 
-    func getMemoryName(of object: Any) -> String {
-        var tmp = object
-        var addr = ""
-        withUnsafePointer(to: &tmp) {
-            addr = "\($0)"
-        }
-        return addr
+
+    func getMemoryName<T: DysprosiumCompatible>(of object: T) -> String {
+        let addr = unsafeBitCast(object, to: Int.self)
+        return String(format: "%p", addr)
     }
 }
