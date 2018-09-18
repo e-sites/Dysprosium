@@ -1,6 +1,9 @@
 # Changelog Dysprosium
 
-## v5.0.2 (the 28-08-2018)
+## v5.1.0 (18-09-2018)
+- Updated to Swift 4.2 / Xcode 10
+
+## v5.0.2 (8-08-2018)
 - Fixed `getMemoryName`
 
 ## v5.0.1 (17-08-2018)

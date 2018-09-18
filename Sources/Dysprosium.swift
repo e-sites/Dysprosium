@@ -99,7 +99,7 @@ public class Dysprosium {
                                        selector: #selector(self._deallocatedTimerFinished(timer:)),
                                        userInfo: nil,
                                        repeats: false)
-            RunLoop.main.add(self._deallocTimer!, forMode: .commonModes)
+            RunLoop.main.add(self._deallocTimer!, forMode: .common)
         }
     }
 
@@ -123,9 +123,9 @@ public class Dysprosium {
                 rootParentViewController = parent
             }
 
-            if viewController.isMovingFromParentViewController || rootParentViewController.isBeingDismissed {
+            if viewController.isMovingFromParent || rootParentViewController.isBeingDismissed {
                 let disappearanceSource = "after being " +
-                    (viewController.isMovingFromParentViewController ? "removed from its parent" : "dismissed")
+                    (viewController.isMovingFromParent ? "removed from its parent" : "dismissed")
 
                 expectDeallocation(of: viewController, after: timeInterval, message: disappearanceSource)
             }
