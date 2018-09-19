@@ -112,7 +112,8 @@ public class Dysprosium {
     }
 
     public func expectDeallocation<T: DysprosiumCompatible>(of viewController: T,
-                                                            after timeInterval: TimeInterval = 2.0)
+                                                            after timeInterval: TimeInterval = 2.0,
+                                                            handler: ((Bool) -> Void)? = nil)
         where T: UIViewController {
             if !isEnabled {
                 return
@@ -127,24 +128,30 @@ public class Dysprosium {
                 let disappearanceSource = "after being " +
                     (viewController.isMovingFromParent ? "removed from its parent" : "dismissed")
 
-                expectDeallocation(of: viewController, after: timeInterval, message: disappearanceSource)
+                expectDeallocation(of: viewController,
+                                   after: timeInterval,
+                                   message: disappearanceSource,
+                                   handler: handler)
             }
     }
 
     public func expectDeallocation(of obj: DysprosiumCompatible,
                                    after timeInterval: TimeInterval,
-                                   message: String? = nil) {
+                                   message: String? = nil,
+                                   handler: ((Bool) -> Void)? = nil) {
         if !isEnabled {
             return
         }
 
         DispatchQueue.main.asyncAfter(deadline: .now() + timeInterval) { [weak obj] in
             guard let obj = obj else {
+                handler?(true)
                 return
             }
             let memoryName = self.getMemoryName(of: obj)
             let deallocModel = DysprosiumObject(className: String(describing: type(of: obj)), memoryName: memoryName)
             self._onExpectedDeallocation?(deallocModel, message ?? "")
+            handler?(false)
         }
     }
 
