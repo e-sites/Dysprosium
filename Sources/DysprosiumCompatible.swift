@@ -13,14 +13,14 @@ import UIKit
 public protocol DysprosiumCompatible: AnyObject { }
 
 extension DysprosiumCompatible where Self: UIViewController {
-    public func expectDeallocation(after timeinterval: TimeInterval = 2.0, handler: ((Bool) -> Void)? = nil) {
-        Dysprosium.shared.expectDeallocation(of: self, after: timeinterval, handler: handler)
+    public func expectDeallocation(after timeinterval: TimeInterval = 2.0) {
+        Dysprosium.shared.expectDeallocation(of: self, after: timeinterval)
     }
 }
 
 extension DysprosiumCompatible {
-    public func expectDeallocation(after timeinterval: TimeInterval = 2.0, handler: ((Bool) -> Void)? = nil) {
-        Dysprosium.shared.expectDeallocation(of: self, after: timeinterval, handler: handler)
+    public func expectDeallocation(after timeinterval: TimeInterval = 2.0) {
+        Dysprosium.shared.expectDeallocation(of: self, after: timeinterval)
     }
 
     public func deallocated() {

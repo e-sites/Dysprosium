@@ -1,5 +1,8 @@
 # Changelog Dysprosium
 
+## v5.1.2 (19-09-2018)
+- Removed `expectDeallocation` with handler
+
 ## v5.1.1 (19-09-2018)
 - `expectDeallocation` with handler
 
