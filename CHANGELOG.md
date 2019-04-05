@@ -1,5 +1,8 @@
 # Changelog Dysprosium
 
+## v5.2.0 (05-04-2019)
+- Swift 5.0
+
 ## v5.1.2 (19-09-2018)
 - Removed `expectDeallocation` with handler
 
