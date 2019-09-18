@@ -1,5 +1,8 @@
 # Changelog Dysprosium
 
+## v5.2.1 (18-09-2019)
+- Swift PM
+
 ## v5.2.0 (05-04-2019)
 - Swift 5.0
 

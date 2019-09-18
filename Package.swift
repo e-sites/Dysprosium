@@ -3,6 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "Dysprosium",
+    platforms: [
+        .iOS(.v8),
+    ],
     products: [
         .library(name: "Dysprosium", targets: ["Dysprosium"])
     ],
