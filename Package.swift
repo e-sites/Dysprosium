@@ -7,15 +7,23 @@ let package = Package(
         .iOS(.v8),
     ],
     products: [
-        .library(name: "Dysprosium", targets: ["Dysprosium"])
+        .library(name: "Dysprosium", targets: ["Dysprosium"]),
+        .library(name: "DysprosiumLog", targets: ["DysprosiumLog"])
     ],
     dependencies: [
+      .package(url: "https://github.com/e-sites/lithium.git", from: "9.0.0")
     ],
     targets: [
         .target(
             name: "Dysprosium",
             dependencies: [],
-            path: "Sources"
+            path: "Sources/Core"
+        ),
+
+        .target(
+            name: "DysprosiumLog",
+            dependencies: [ "Dysprosium", "Lithium" ],
+            path: "Sources/Logging"
         )
     ]
 )

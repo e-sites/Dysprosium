@@ -1,5 +1,8 @@
 # Changelog Dysprosium
 
+## v6.0.0 (13-07-2020)
+- Compatible with new version of Lithium
+
 ## v5.2.1 (18-09-2019)
 - Swift PM
 

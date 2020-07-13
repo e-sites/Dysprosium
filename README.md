@@ -9,25 +9,22 @@ This library is pure for debugging purposes.
 
 [![forthebadge](http://forthebadge.com/images/badges/made-with-swift.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/built-with-swag.svg)](http://forthebadge.com)
 
-[![Platform](https://img.shields.io/cocoapods/p/Dysprosium.svg?style=flat)](http://cocoadocs.org/docsets/Dysprosium)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Dysprosium.svg)](http://cocoadocs.org/docsets/Dysprosium)
-[![Quality](https://apps.e-sites.nl/cocoapodsquality/Dysprosium/badge.svg?004)](https://cocoapods.org/pods/Dysprosium/quality)
 [![Travis-ci](https://travis-ci.org/e-sites/Dysprosium.svg?branch=master&001)](https://travis-ci.org/e-sites/Dysprosium)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-
 
 # Installation
 
-Podfile:
+Swift PM:
 
-```ruby
-pod 'Dysprosium'
+**package.swift** dependency:
+
+```swift
+.package(url: "https://github.com/e-sites/dysprosium.git", from: "6.0.0"),
 ```
 
-And then
+and to your application/library target, add `"Dysprosium"` to your `dependencies`, e.g. like this:
 
-```
-pod install
+```swift
+.target(name: "BestExampleApp", dependencies: ["Dysprosium", "DysprosiumLogger"]),
 ```
 
 # Implementation
