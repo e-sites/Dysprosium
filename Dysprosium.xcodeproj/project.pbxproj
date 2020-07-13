@@ -7,28 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C37F874324BC6389003EFD5B /* Lithium in Frameworks */ = {isa = PBXBuildFile; productRef = C37F874224BC6389003EFD5B /* Lithium */; };
-		OBJ_37 /* Dysprosium.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Dysprosium.swift */; };
-		OBJ_38 /* DysprosiumCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* DysprosiumCompatible.swift */; };
-		OBJ_45 /* DysprosiumLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* DysprosiumLogging.swift */; };
-		OBJ_47 /* Logging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-log::Logging::Product" /* Logging.framework */; };
-		OBJ_48 /* Dysprosium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Dysprosium::Dysprosium::Product" /* Dysprosium.framework */; };
-		OBJ_57 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_62 /* Locks.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Locks.swift */; };
-		OBJ_63 /* LogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* LogHandler.swift */; };
-		OBJ_64 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Logging.swift */; };
-		OBJ_71 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Package.swift */; };
+		C37F875024BC65EC003EFD5B /* Lithium in Frameworks */ = {isa = PBXBuildFile; productRef = C37F874F24BC65EC003EFD5B /* Lithium */; };
+		OBJ_103 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Package.swift */; };
+		OBJ_47 /* Dysprosium.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Dysprosium.swift */; };
+		OBJ_48 /* DysprosiumCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* DysprosiumCompatible.swift */; };
+		OBJ_55 /* DysprosiumLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* DysprosiumLogging.swift */; };
+		OBJ_57 /* Lithium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Lithium::Lithium::Product" /* Lithium.framework */; };
+		OBJ_58 /* Logging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-log::Logging::Product" /* Logging.framework */; };
+		OBJ_59 /* Dysprosium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Dysprosium::Dysprosium::Product" /* Dysprosium.framework */; };
+		OBJ_70 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_75 /* LithiumLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* LithiumLogger.swift */; };
+		OBJ_76 /* LogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* LogFormatter.swift */; };
+		OBJ_77 /* LogStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* LogStyle.swift */; };
+		OBJ_78 /* LogTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* LogTheme.swift */; };
+		OBJ_79 /* DefaultLogTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* DefaultLogTheme.swift */; };
+		OBJ_80 /* EmojiLogTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* EmojiLogTheme.swift */; };
+		OBJ_82 /* Logging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-log::Logging::Product" /* Logging.framework */; };
+		OBJ_89 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Package.swift */; };
+		OBJ_94 /* Locks.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Locks.swift */; };
+		OBJ_95 /* LogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* LogHandler.swift */; };
+		OBJ_96 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Logging.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C37F873F24BC636C003EFD5B /* PBXContainerItemProxy */ = {
+		C37F874A24BC65D9003EFD5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Lithium::Lithium";
+			remoteInfo = Lithium;
+		};
+		C37F874B24BC65D9003EFD5B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "swift-log::Logging";
 			remoteInfo = Logging;
 		};
-		C37F874024BC636C003EFD5B /* PBXContainerItemProxy */ = {
+		C37F874C24BC65D9003EFD5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-log::Logging";
+			remoteInfo = Logging;
+		};
+		C37F874D24BC65D9003EFD5B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -40,43 +63,59 @@
 /* Begin PBXFileReference section */
 		"Dysprosium::Dysprosium::Product" /* Dysprosium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dysprosium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Dysprosium::DysprosiumLog::Product" /* DysprosiumLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DysprosiumLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Lithium::Lithium::Product" /* Lithium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Lithium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* Dysprosium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dysprosium.swift; sourceTree = "<group>"; };
 		OBJ_11 /* DysprosiumCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DysprosiumCompatible.swift; sourceTree = "<group>"; };
 		OBJ_13 /* DysprosiumLogging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DysprosiumLogging.swift; sourceTree = "<group>"; };
-		OBJ_18 /* Locks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locks.swift; sourceTree = "<group>"; };
-		OBJ_19 /* LogHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogHandler.swift; sourceTree = "<group>"; };
-		OBJ_20 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
-		OBJ_21 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/bvkuijck/Desktop/workspace/ios/#ios-suite/Dysprosium/.build/checkouts/swift-log/Package.swift"; sourceTree = "<group>"; };
-		OBJ_26 /* DysprosiumTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DysprosiumTests; sourceTree = SOURCE_ROOT; };
-		OBJ_27 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = SOURCE_ROOT; };
-		OBJ_28 /* Dysprosium.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dysprosium.podspec; sourceTree = "<group>"; };
-		OBJ_29 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		OBJ_30 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		OBJ_31 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_17 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/bvkuijck/Desktop/workspace/ios/#ios-suite/Dysprosium/.build/checkouts/lithium/Package.swift"; sourceTree = "<group>"; };
+		OBJ_18 /* LithiumLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LithiumLogger.swift; sourceTree = "<group>"; };
+		OBJ_20 /* LogFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFormatter.swift; sourceTree = "<group>"; };
+		OBJ_21 /* LogStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogStyle.swift; sourceTree = "<group>"; };
+		OBJ_22 /* LogTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTheme.swift; sourceTree = "<group>"; };
+		OBJ_24 /* DefaultLogTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLogTheme.swift; sourceTree = "<group>"; };
+		OBJ_25 /* EmojiLogTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLogTheme.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Locks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locks.swift; sourceTree = "<group>"; };
+		OBJ_29 /* LogHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogHandler.swift; sourceTree = "<group>"; };
+		OBJ_30 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		OBJ_31 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/bvkuijck/Desktop/workspace/ios/#ios-suite/Dysprosium/.build/checkouts/swift-log/Package.swift"; sourceTree = "<group>"; };
+		OBJ_37 /* DysprosiumTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DysprosiumTests; sourceTree = SOURCE_ROOT; };
+		OBJ_38 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = SOURCE_ROOT; };
+		OBJ_39 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_40 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		OBJ_41 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* Dysprosium.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dysprosium.h; sourceTree = "<group>"; };
 		"swift-log::Logging::Product" /* Logging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_39 /* Frameworks */ = {
+		OBJ_49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				C37F874324BC6389003EFD5B /* Lithium in Frameworks */,
+				C37F875024BC65EC003EFD5B /* Lithium in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_46 /* Frameworks */ = {
+		OBJ_56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_47 /* Logging.framework in Frameworks */,
-				OBJ_48 /* Dysprosium.framework in Frameworks */,
+				OBJ_57 /* Lithium.framework in Frameworks */,
+				OBJ_58 /* Logging.framework in Frameworks */,
+				OBJ_59 /* Dysprosium.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_65 /* Frameworks */ = {
+		OBJ_81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_82 /* Logging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -105,36 +144,69 @@
 		OBJ_15 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_16 /* swift-log 1.3.0 */,
+				OBJ_16 /* Lithium 9.0.1 */,
+				OBJ_26 /* swift-log 1.3.0 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_16 /* swift-log 1.3.0 */ = {
+		OBJ_16 /* Lithium 9.0.1 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_17 /* Logging */,
-				OBJ_21 /* Package.swift */,
+				OBJ_17 /* Package.swift */,
+				OBJ_18 /* LithiumLogger.swift */,
+				OBJ_19 /* Styling */,
+				OBJ_23 /* Themes */,
+			);
+			name = "Lithium 9.0.1";
+			path = .build/checkouts/lithium/Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_19 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_20 /* LogFormatter.swift */,
+				OBJ_21 /* LogStyle.swift */,
+				OBJ_22 /* LogTheme.swift */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
+		OBJ_23 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_24 /* DefaultLogTheme.swift */,
+				OBJ_25 /* EmojiLogTheme.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		OBJ_26 /* swift-log 1.3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_27 /* Logging */,
+				OBJ_31 /* Package.swift */,
 			);
 			name = "swift-log 1.3.0";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_17 /* Logging */ = {
+		OBJ_27 /* Logging */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_18 /* Locks.swift */,
-				OBJ_19 /* LogHandler.swift */,
-				OBJ_20 /* Logging.swift */,
+				OBJ_28 /* Locks.swift */,
+				OBJ_29 /* LogHandler.swift */,
+				OBJ_30 /* Logging.swift */,
 			);
 			name = Logging;
 			path = ".build/checkouts/swift-log/Sources/Logging";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_22 /* Products */ = {
+		OBJ_32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				"Dysprosium::DysprosiumLog::Product" /* DysprosiumLog.framework */,
 				"swift-log::Logging::Product" /* Logging.framework */,
+				"Lithium::Lithium::Product" /* Lithium.framework */,
 				"Dysprosium::Dysprosium::Product" /* Dysprosium.framework */,
 			);
 			name = Products;
@@ -147,13 +219,12 @@
 				OBJ_7 /* Sources */,
 				OBJ_14 /* Tests */,
 				OBJ_15 /* Dependencies */,
-				OBJ_22 /* Products */,
-				OBJ_26 /* DysprosiumTests */,
-				OBJ_27 /* Assets */,
-				OBJ_28 /* Dysprosium.podspec */,
-				OBJ_29 /* LICENSE */,
-				OBJ_30 /* CHANGELOG.md */,
-				OBJ_31 /* README.md */,
+				OBJ_32 /* Products */,
+				OBJ_37 /* DysprosiumTests */,
+				OBJ_38 /* Assets */,
+				OBJ_39 /* LICENSE */,
+				OBJ_40 /* CHANGELOG.md */,
+				OBJ_41 /* README.md */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -183,10 +254,10 @@
 /* Begin PBXNativeTarget section */
 		"Dysprosium::Dysprosium" /* Dysprosium */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_33 /* Build configuration list for PBXNativeTarget "Dysprosium" */;
+			buildConfigurationList = OBJ_43 /* Build configuration list for PBXNativeTarget "Dysprosium" */;
 			buildPhases = (
-				OBJ_36 /* Sources */,
-				OBJ_39 /* Frameworks */,
+				OBJ_46 /* Sources */,
+				OBJ_49 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,7 +265,7 @@
 			);
 			name = Dysprosium;
 			packageProductDependencies = (
-				C37F874224BC6389003EFD5B /* Lithium */,
+				C37F874F24BC65EC003EFD5B /* Lithium */,
 			);
 			productName = Dysprosium;
 			productReference = "Dysprosium::Dysprosium::Product" /* Dysprosium.framework */;
@@ -202,16 +273,17 @@
 		};
 		"Dysprosium::DysprosiumLog" /* DysprosiumLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_41 /* Build configuration list for PBXNativeTarget "DysprosiumLog" */;
+			buildConfigurationList = OBJ_51 /* Build configuration list for PBXNativeTarget "DysprosiumLog" */;
 			buildPhases = (
-				OBJ_44 /* Sources */,
-				OBJ_46 /* Frameworks */,
+				OBJ_54 /* Sources */,
+				OBJ_56 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_49 /* PBXTargetDependency */,
-				OBJ_51 /* PBXTargetDependency */,
+				OBJ_60 /* PBXTargetDependency */,
+				OBJ_62 /* PBXTargetDependency */,
+				OBJ_64 /* PBXTargetDependency */,
 			);
 			name = DysprosiumLog;
 			productName = DysprosiumLog;
@@ -220,9 +292,9 @@
 		};
 		"Dysprosium::SwiftPMPackageDescription" /* DysprosiumPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_53 /* Build configuration list for PBXNativeTarget "DysprosiumPackageDescription" */;
+			buildConfigurationList = OBJ_66 /* Build configuration list for PBXNativeTarget "DysprosiumPackageDescription" */;
 			buildPhases = (
-				OBJ_56 /* Sources */,
+				OBJ_69 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -232,12 +304,43 @@
 			productName = DysprosiumPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
+		"Lithium::Lithium" /* Lithium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_71 /* Build configuration list for PBXNativeTarget "Lithium" */;
+			buildPhases = (
+				OBJ_74 /* Sources */,
+				OBJ_81 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_83 /* PBXTargetDependency */,
+			);
+			name = Lithium;
+			productName = Lithium;
+			productReference = "Lithium::Lithium::Product" /* Lithium.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Lithium::SwiftPMPackageDescription" /* LithiumPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_85 /* Build configuration list for PBXNativeTarget "LithiumPackageDescription" */;
+			buildPhases = (
+				OBJ_88 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LithiumPackageDescription;
+			productName = LithiumPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
 		"swift-log::Logging" /* Logging */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_58 /* Build configuration list for PBXNativeTarget "Logging" */;
+			buildConfigurationList = OBJ_90 /* Build configuration list for PBXNativeTarget "Logging" */;
 			buildPhases = (
-				OBJ_61 /* Sources */,
-				OBJ_65 /* Frameworks */,
+				OBJ_93 /* Sources */,
+				OBJ_97 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,9 +353,9 @@
 		};
 		"swift-log::SwiftPMPackageDescription" /* swift-logPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_67 /* Build configuration list for PBXNativeTarget "swift-logPackageDescription" */;
+			buildConfigurationList = OBJ_99 /* Build configuration list for PBXNativeTarget "swift-logPackageDescription" */;
 			buildPhases = (
-				OBJ_70 /* Sources */,
+				OBJ_102 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -280,15 +383,17 @@
 			);
 			mainGroup = OBJ_5 /*  */;
 			packageReferences = (
-				C37F874124BC6389003EFD5B /* XCRemoteSwiftPackageReference "Lithium" */,
+				C37F874E24BC65EC003EFD5B /* XCRemoteSwiftPackageReference "Lithium" */,
 			);
-			productRefGroup = OBJ_22 /* Products */;
+			productRefGroup = OBJ_32 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				"Dysprosium::Dysprosium" /* Dysprosium */,
 				"Dysprosium::DysprosiumLog" /* DysprosiumLog */,
 				"Dysprosium::SwiftPMPackageDescription" /* DysprosiumPackageDescription */,
+				"Lithium::Lithium" /* Lithium */,
+				"Lithium::SwiftPMPackageDescription" /* LithiumPackageDescription */,
 				"swift-log::Logging" /* Logging */,
 				"swift-log::SwiftPMPackageDescription" /* swift-logPackageDescription */,
 			);
@@ -296,65 +401,114 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_36 /* Sources */ = {
+		OBJ_102 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_37 /* Dysprosium.swift in Sources */,
-				OBJ_38 /* DysprosiumCompatible.swift in Sources */,
+				OBJ_103 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_44 /* Sources */ = {
+		OBJ_46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_45 /* DysprosiumLogging.swift in Sources */,
+				OBJ_47 /* Dysprosium.swift in Sources */,
+				OBJ_48 /* DysprosiumCompatible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_56 /* Sources */ = {
+		OBJ_54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_57 /* Package.swift in Sources */,
+				OBJ_55 /* DysprosiumLogging.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_61 /* Sources */ = {
+		OBJ_69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_62 /* Locks.swift in Sources */,
-				OBJ_63 /* LogHandler.swift in Sources */,
-				OBJ_64 /* Logging.swift in Sources */,
+				OBJ_70 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_70 /* Sources */ = {
+		OBJ_74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_71 /* Package.swift in Sources */,
+				OBJ_75 /* LithiumLogger.swift in Sources */,
+				OBJ_76 /* LogFormatter.swift in Sources */,
+				OBJ_77 /* LogStyle.swift in Sources */,
+				OBJ_78 /* LogTheme.swift in Sources */,
+				OBJ_79 /* DefaultLogTheme.swift in Sources */,
+				OBJ_80 /* EmojiLogTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_89 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_94 /* Locks.swift in Sources */,
+				OBJ_95 /* LogHandler.swift in Sources */,
+				OBJ_96 /* Logging.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_49 /* PBXTargetDependency */ = {
+		OBJ_60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Lithium::Lithium" /* Lithium */;
+			targetProxy = C37F874A24BC65D9003EFD5B /* PBXContainerItemProxy */;
+		};
+		OBJ_62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-log::Logging" /* Logging */;
-			targetProxy = C37F873F24BC636C003EFD5B /* PBXContainerItemProxy */;
+			targetProxy = C37F874C24BC65D9003EFD5B /* PBXContainerItemProxy */;
 		};
-		OBJ_51 /* PBXTargetDependency */ = {
+		OBJ_64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Dysprosium::Dysprosium" /* Dysprosium */;
-			targetProxy = C37F874024BC636C003EFD5B /* PBXContainerItemProxy */;
+			targetProxy = C37F874D24BC65D9003EFD5B /* PBXContainerItemProxy */;
+		};
+		OBJ_83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swift-log::Logging" /* Logging */;
+			targetProxy = C37F874B24BC65D9003EFD5B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		OBJ_100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -382,68 +536,6 @@
 			};
 			name = Debug;
 		};
-		OBJ_34 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Dysprosium.xcodeproj/Dysprosium_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Dysprosium;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = Dysprosium;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		OBJ_35 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Dysprosium.xcodeproj/Dysprosium_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Dysprosium;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = Dysprosium;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -469,7 +561,69 @@
 			};
 			name = Release;
 		};
-		OBJ_42 /* Debug */ = {
+		OBJ_44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dysprosium.xcodeproj/Dysprosium_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Dysprosium;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Dysprosium;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dysprosium.xcodeproj/Dysprosium_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Dysprosium;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Dysprosium;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -500,7 +654,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_43 /* Release */ = {
+		OBJ_53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -531,7 +685,7 @@
 			};
 			name = Release;
 		};
-		OBJ_54 /* Debug */ = {
+		OBJ_67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -540,7 +694,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_55 /* Release */ = {
+		OBJ_68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -549,7 +703,87 @@
 			};
 			name = Release;
 		};
-		OBJ_59 /* Debug */ = {
+		OBJ_72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dysprosium.xcodeproj/Lithium_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Lithium;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Lithium;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dysprosium.xcodeproj/Lithium_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Lithium;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Lithium;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -580,7 +814,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_60 /* Release */ = {
+		OBJ_92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -608,24 +842,6 @@
 				TARGET_NAME = Logging;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		OBJ_68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.0.0";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		OBJ_69 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.0.0";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -641,47 +857,65 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_33 /* Build configuration list for PBXNativeTarget "Dysprosium" */ = {
+		OBJ_43 /* Build configuration list for PBXNativeTarget "Dysprosium" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_34 /* Debug */,
-				OBJ_35 /* Release */,
+				OBJ_44 /* Debug */,
+				OBJ_45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_41 /* Build configuration list for PBXNativeTarget "DysprosiumLog" */ = {
+		OBJ_51 /* Build configuration list for PBXNativeTarget "DysprosiumLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_42 /* Debug */,
-				OBJ_43 /* Release */,
+				OBJ_52 /* Debug */,
+				OBJ_53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_53 /* Build configuration list for PBXNativeTarget "DysprosiumPackageDescription" */ = {
+		OBJ_66 /* Build configuration list for PBXNativeTarget "DysprosiumPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_54 /* Debug */,
-				OBJ_55 /* Release */,
+				OBJ_67 /* Debug */,
+				OBJ_68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_58 /* Build configuration list for PBXNativeTarget "Logging" */ = {
+		OBJ_71 /* Build configuration list for PBXNativeTarget "Lithium" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_59 /* Debug */,
-				OBJ_60 /* Release */,
+				OBJ_72 /* Debug */,
+				OBJ_73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_67 /* Build configuration list for PBXNativeTarget "swift-logPackageDescription" */ = {
+		OBJ_85 /* Build configuration list for PBXNativeTarget "LithiumPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_68 /* Debug */,
-				OBJ_69 /* Release */,
+				OBJ_86 /* Debug */,
+				OBJ_87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_90 /* Build configuration list for PBXNativeTarget "Logging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_91 /* Debug */,
+				OBJ_92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_99 /* Build configuration list for PBXNativeTarget "swift-logPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_100 /* Debug */,
+				OBJ_101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -689,7 +923,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C37F874124BC6389003EFD5B /* XCRemoteSwiftPackageReference "Lithium" */ = {
+		C37F874E24BC65EC003EFD5B /* XCRemoteSwiftPackageReference "Lithium" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/e-sites/Lithium.git";
 			requirement = {
@@ -700,9 +934,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C37F874224BC6389003EFD5B /* Lithium */ = {
+		C37F874F24BC65EC003EFD5B /* Lithium */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C37F874124BC6389003EFD5B /* XCRemoteSwiftPackageReference "Lithium" */;
+			package = C37F874E24BC65EC003EFD5B /* XCRemoteSwiftPackageReference "Lithium" */;
 			productName = Lithium;
 		};
 /* End XCSwiftPackageProductDependency section */

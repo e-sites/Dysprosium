@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Dysprosium::DysprosiumLog"
-               BuildableName = "DysprosiumLog.framework"
-               BlueprintName = "DysprosiumLog"
+               BlueprintIdentifier = "Dysprosium::Dysprosium"
+               BuildableName = "Dysprosium.framework"
+               BlueprintName = "Dysprosium"
                ReferencedContainer = "container:Dysprosium.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Dysprosium::Dysprosium"
-               BuildableName = "Dysprosium.framework"
-               BlueprintName = "Dysprosium"
+               BlueprintIdentifier = "Dysprosium::DysprosiumLog"
+               BuildableName = "DysprosiumLog.framework"
+               BlueprintName = "DysprosiumLog"
                ReferencedContainer = "container:Dysprosium.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

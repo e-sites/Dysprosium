@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "Lithium",
+        "repositoryURL": "https://github.com/e-sites/lithium.git",
+        "state": {
+          "branch": null,
+          "revision": "711e768c25b68ada4d52cf878c610434de778f38",
+          "version": "9.0.1"
+        }
+      },
+      {
         "package": "swift-log",
         "repositoryURL": "https://github.com/apple/swift-log.git",
         "state": {
