@@ -9,6 +9,7 @@
 import Foundation
 import Dysprosium
 import Lithium
+import Logging
 
 extension LithiumLogger {
     public func setupWithDysprosium() {
@@ -25,7 +26,7 @@ extension LithiumLogger {
             style.prefixText = "DEA"
         }
 
-        Dysprosium.shared.onDealloc { [weak self] models in
+        Dysprosium.shared.onDealloc { models in
             var strArray: [String] = []
             var classesDone: [String] = []
 
