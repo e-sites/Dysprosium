@@ -15,15 +15,15 @@ extension LithiumLogger {
     public func setupWithDysprosium() {
         Dysprosium.shared.isEnabled = true
 
-        let style = LogStyle()
+        let prefixText: String
         if self.theme is EmojiLogTheme {
-            style.prefixText = "☠️ DEA"
+            prefixText = "☠️ DEA"
 
         } else if self.theme is DefaultLogTheme {
-            style.prefixText = "Dealloc"
+            prefixText = "Dealloc"
 
         } else {
-            style.prefixText = "DEA"
+            prefixText = "DEA"
         }
 
         Dysprosium.shared.onDealloc { models in
@@ -56,12 +56,12 @@ extension LithiumLogger {
                 str = String(format: "%@ %@ %@", strArray.joined(separator: ", "), "and", lastObject)
             }
 
-            self.log(level: .trace, message: Logger.Message(stringLiteral: str), metadata: [ "tag": "dealloc" ], file: "", function: "", line: 0)
+            self.log(level: .trace, message: Logger.Message(stringLiteral: str), metadata: [ "tag": "dealloc", "_prefixText": prefixText ], file: "", function: "", line: 0)
         }
 
         Dysprosium.shared.onExpectedDeallocation { obj, reason in
             let str = "\(obj) not being deallocated \(reason)"
-            self.log(level: .trace, message: Logger.Message(stringLiteral: str), metadata: [ "tag": "dealloc" ], file: "", function: "", line: 0)
+            self.log(level: .trace, message: Logger.Message(stringLiteral: str), metadata: [ "tag": "dealloc", "_prefixText": prefixText ], file: "", function: "", line: 0)
         }
     }
 }
