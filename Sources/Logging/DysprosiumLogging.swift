@@ -56,12 +56,12 @@ extension LithiumLogger {
                 str = String(format: "%@ %@ %@", strArray.joined(separator: ", "), "and", lastObject)
             }
 
-            self.log(level: .trace, message: Logger.Message(stringLiteral: str), metadata: [ "tag": "dealloc", "_prefixText": prefixText ], file: "", function: "", line: 0)
+            self.log(level: .trace, message: Logger.Message(stringLiteral: str), metadata: [ "tag": "dealloc", "_prefixText": .string(prefixText) ], file: "", function: "", line: 0)
         }
 
         Dysprosium.shared.onExpectedDeallocation { obj, reason in
             let str = "\(obj) not being deallocated \(reason)"
-            self.log(level: .trace, message: Logger.Message(stringLiteral: str), metadata: [ "tag": "dealloc", "_prefixText": prefixText ], file: "", function: "", line: 0)
+            self.log(level: .trace, message: Logger.Message(stringLiteral: str), metadata: [ "tag": "dealloc", "_prefixText": .string(prefixText) ], file: "", function: "", line: 0)
         }
     }
 }
