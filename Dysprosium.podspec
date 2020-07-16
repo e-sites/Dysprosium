@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://www.e-sites.nl"
   s.summary      = "Deallocation helper for runtime objects"
   s.source       = { :git => "https://github.com/e-sites/Dysprosium.git", :tag => "v#{s.version}" }
-  s.source_files = "Sources/*.{swift}"
+  s.source_files = "Sources/**/*.{swift,h}"
   s.xcconfig     = { 'OTHER_SWIFT_FLAGS' => '"-D$(CONFIGURATION:identifier:upper)"' }
 
   s.platform     = :ios, '9.0'
