@@ -13,7 +13,7 @@ This library is pure for debugging purposes.
 
 # Installation
 
-Swift PM:
+##Swift PM
 
 **package.swift** dependency:
 
