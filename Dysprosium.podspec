@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source_files = "Sources/**/*.{swift,h}"
   s.xcconfig     = { 'OTHER_SWIFT_FLAGS' => '"-D$(CONFIGURATION:identifier:upper)"' }
 
-  s.platform     = :ios, '9.0'
+  s.platform     = :ios, '10.0'
   s.swift_versions = [ '5.0', '5.1', '5.2' ]
   s.requires_arc  = true
   s.dependency 'Lithium'
