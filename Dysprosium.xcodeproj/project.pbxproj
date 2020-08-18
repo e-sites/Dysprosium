@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C306348224EC1EBA00A9FD3B /* DysprosiumLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* DysprosiumLogging.swift */; };
 		C37F875024BC65EC003EFD5B /* Lithium in Frameworks */ = {isa = PBXBuildFile; productRef = C37F874F24BC65EC003EFD5B /* Lithium */; };
 		OBJ_103 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Package.swift */; };
 		OBJ_47 /* Dysprosium.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Dysprosium.swift */; };
 		OBJ_48 /* DysprosiumCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* DysprosiumCompatible.swift */; };
-		OBJ_55 /* DysprosiumLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* DysprosiumLogging.swift */; };
 		OBJ_57 /* Lithium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Lithium::Lithium::Product" /* Lithium.framework */; };
 		OBJ_58 /* Logging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-log::Logging::Product" /* Logging.framework */; };
 		OBJ_59 /* Dysprosium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Dysprosium::Dysprosium::Product" /* Dysprosium.framework */; };
@@ -62,7 +62,7 @@
 
 /* Begin PBXFileReference section */
 		"Dysprosium::Dysprosium::Product" /* Dysprosium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dysprosium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Dysprosium::DysprosiumLog::Product" /* DysprosiumLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DysprosiumLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Dysprosium::DysprosiumLog::Product" /* DysprosiumLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DysprosiumLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Lithium::Lithium::Product" /* Lithium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Lithium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* Dysprosium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dysprosium.swift; sourceTree = "<group>"; };
 		OBJ_11 /* DysprosiumCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DysprosiumCompatible.swift; sourceTree = "<group>"; };
@@ -212,7 +212,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -226,7 +226,6 @@
 				OBJ_40 /* CHANGELOG.md */,
 				OBJ_41 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -381,7 +380,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			packageReferences = (
 				C37F874E24BC65EC003EFD5B /* XCRemoteSwiftPackageReference "Lithium" */,
 			);
@@ -422,7 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_55 /* DysprosiumLogging.swift in Sources */,
+				C306348224EC1EBA00A9FD3B /* DysprosiumLogging.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,7 +632,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Dysprosium.xcodeproj/DysprosiumLog_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
@@ -664,7 +663,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Dysprosium.xcodeproj/DysprosiumLog_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",

@@ -1,5 +1,8 @@
 # Changelog Dysprosium
 
+## v6.0.2 (18-08-2020)
+- Fixed bug with DysprosiumLog
+
 ## v6.0.0 (13-07-2020)
 - Compatible with new version of Lithium
 

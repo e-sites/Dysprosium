@@ -9,6 +9,7 @@
 import Foundation
 import Lithium
 import Logging
+import Dysprosium
 
 extension LithiumLogger {
     public func setupWithDysprosium() {
