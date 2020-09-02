@@ -77,7 +77,7 @@ public class Dysprosium {
     /**
      :see: deallocatedObject() for more information
      */
-    public func deallocated(object: DysprosiumCompatible) {
+    public func deallocated<T: DysprosiumCompatible>(object: T) {
         if !isEnabled {
             return
         }
@@ -133,7 +133,7 @@ public class Dysprosium {
             }
     }
 
-    public func expectDeallocation(of obj: DysprosiumCompatible,
+    public func expectDeallocation<T: DysprosiumCompatible>(of obj: T,
                                    after timeInterval: TimeInterval,
                                    message: String? = nil) {
         if !isEnabled {

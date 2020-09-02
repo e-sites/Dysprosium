@@ -1,5 +1,8 @@
 # Changelog Dysprosium
 
+## v6.1.0 (02-09-2020)
+- Removed `AnyObject` protocol inheritance
+
 ## v6.0.2 (18-08-2020)
 - Fixed bug with DysprosiumLog
 
